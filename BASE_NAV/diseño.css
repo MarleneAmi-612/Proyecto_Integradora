@@ -58,8 +58,6 @@ nav ul li a:hover {
     background-color: #82bfc5;
 }
 
-
-/*ICONO DEL LOGIN*/
 .teacherlog {
     cursor: pointer; /* Cambia el cursor a un puntero */
     transition: transform 0.1s ease; /* Suaviza la transición */
@@ -98,108 +96,64 @@ nav ul li a:hover {
     display: block;
     transition: background-color 0.3s ease;
 }
-
+    
 .dropdown-content a:hover {
     background-color: #f1f1f1;
 }
-
-
-
-/*Slider de imágenes*/
-.slider {
-    width: 100%;
-    height: 400px;
-    background-color: #ccc;
-    position: relative;
+/* Sección de Avisos */
+.avisos {
+    width: auto;
+    height: 125px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
     margin-top: 20px;
-}
-
-.flecha-izquierda,
-.flecha-derecha {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    cursor: pointer;
+    font-weight: bold;
+    color: #588786;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-.flecha-izquierda {
-    left: 10px;
+/*Pie de página*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;  
+
 }
 
-.flecha-derecha {
-    right: 10px;
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
 }
 
-
-/*Promocion de tres cuadros*/
-.content {
-    display: flex;
-    justify-content: space-around;
-    margin: 100px 0;
-}
-
-.content div {
-    width: 30%;
-    height: 150px;
-    background-color: #f0f0f0;
+.pie-pagina .grupo-1 .box figure{
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-
-/*Novedades*/
-
-.novedades {
-    text-align: center;
-    margin-top: 20px;
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
 }
 
-.novedades h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
-.novedades-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.novedad {
-    border: 2px solid #000; /* Borde de los cuadros */
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    position: relative;
-}
-
-.novedad-header {
-    display: flex;
-    align-items: center;
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
     margin-bottom: 10px;
+
 }
-
-.icono-calendario {
-    font-size: 24px;
-    margin-right: 10px;
-}
-
-.titulo {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.contenido {
-    text-align: left;
-    font-size: 1rem;
-    color: #333;
-}
-
-

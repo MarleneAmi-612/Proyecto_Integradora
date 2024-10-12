@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maqueta Básica</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="estilos.css">
+
 </head>
+
 <body>
 
-    <!-- Cabeza y Navegación -->
     <header>
+        <div class="logo">Logo</div>
         <nav>
             <ul>
-                <li><img src="#" alt="logo" width="50"></li>
                 <li><a href="#">INICIO</a></li>
                 <li class="dropdown">
                     <a href="#">NOSOTROS</a>
@@ -25,36 +27,71 @@
                 <li><a href="#">AVISOS</a></li>
                 <li><a href="#">CURSOS</a></li>
                 <li><a href="#">CONTACTO</a></li>
-                <li><a href="#"><img src="#" alt="user-icon" width="30"></a></li>
+                <li><a href="#"><img src="icons/teacher_icon.png" alt="Icono" class="teacherlog"></a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Desliz de imágenes -->
     <section class="slider">
-        <div class="arrow-left">◀</div>
-        <div class="arrow-right">▶</div>
+        <div class="flecha-izquierda">◀</div>
+        <div class="flecha-derecha">▶</div>
     </section>
 
-    <!-- Content Boxes -->
+    <!-- Contenido en cajas -->
     <section class="content">
         <div>Cursos</div>
         <div>Avisos</div>
-        <div>Calendario</div>
+        <div>Contacto</div>
     </section>
 
-    <!-- Novedades Section -->
+    <!-- Seccion de novedades -->
     <section class="novedades">
-        <h2>Novedades</h2>
-        <div class="novedades-item">
-            <h3>Título</h3>
-            <p>Descripción del contenido.</p>
-        </div>
-        <div class="novedades-item">
-            <h3>Título</h3>
-            <p>Descripción del contenido.</p>
+        <h1>Novedades</h1>
+        <div class="novedades-grid">
+            <div class="novedad">
+                <div class="novedad-header">
+                    <span class="icono-calendario">&#128197;</span>
+                    <span class="titulo">Título</span>
+                </div>
+                <p class="contenido">Este es el contenido de la novedad. Aquí irá el texto descriptivo de lo que estás anunciando.</p>
+            </div>
+            <div class="novedad">
+                <div class="novedad-header">
+                    <span class="icono-calendario">&#128197;</span>
+                    <span class="titulo">Título</span>
+                </div>
+                <p class="contenido">Este es el contenido de la novedad. Aquí irá el texto descriptivo de lo que estás anunciando.</p>
+            </div>
+            <div class="novedad">
+                <div class="novedad-header">
+                    <span class="icono-calendario">&#128197;</span>
+                    <span class="titulo">Título</span>
+                </div>
+                <p class="contenido">Este es el contenido de la novedad. Aquí irá el texto descriptivo de lo que estás anunciando.</p>
+            </div>
+            <div class="novedad">
+                <div class="novedad-header">
+                    <span class="icono-calendario">&#128197;</span>
+                    <span class="titulo">Título</span>
+                </div>
+                <p class="contenido">Este es el contenido de la novedad. Aquí irá el texto descriptivo de lo que estás anunciando.</p>
+            </div>
         </div>
     </section>
+
+
+
+
+    <footer class="footer">
+        <div></div>
+        <div></div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+            </p>
+        </div>
+    </footer>
 
 </body>
+
 </html>
